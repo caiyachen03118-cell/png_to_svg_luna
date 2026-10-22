@@ -1,0 +1,2 @@
+# Preserve the original SKILL backup byte-for-byte, including its line endings.
+/SKILL.backup-20261022.md -text
