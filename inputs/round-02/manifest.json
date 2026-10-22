@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "preparedDate": "2026-10-18",
+  "inputMode": "original-raster-only",
+  "blindProtocol": "The source-selection agent inspected raster pixels to verify task suitability. Teacher/Skill author receives only neutral paths, dimensions and hashes before Skill freeze. No SVG, XML, scene, vector coordinates, or PNG text payload is downloaded or inspected.",
+  "sourceVerification": "Primary official repository and Wikimedia original file pages were checked. Licensing uncertainty is preserved explicitly.",
+  "inputs": [
+    {
+      "id": "test-01",
+      "title": "Object detector 1stage vs 2 stage",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Object_detector_1stage_vs_2_stage.png",
+      "sourcePageRevision": "https://commons.wikimedia.org/w/index.php?title=File:Object_detector_1stage_vs_2_stage.png&oldid=707978737",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Object_detector_1stage_vs_2_stage.png",
+      "paperSource": "https://doi.org/10.1109/ACCESS.2019.2939201",
+      "author": "Licheng Jiao, Fan Zhang, Fang Liu, Shuyuan Yang (as credited by the Commons file page)",
+      "license": "CC BY 4.0 (image-specific statement on Commons)",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "selectionCriteria": "Native rotated label, directed connections, moderate label density and two photographic regions.",
+      "role": "held-out-round-02",
+      "file": "test-01.png",
+      "width": 1085,
+      "height": 867,
+      "sha256": "6d131648e7c13cded624c421139b231cbe8db2cb45e2a90ef5502ed97711252b",
+      "bytes": 109660,
+      "originalDownloadSha256": "6d131648e7c13cded624c421139b231cbe8db2cb45e2a90ef5502ed97711252b",
+      "originalDownloadBytes": 109660,
+      "compressedPixelDataSha256": "38237ba3727fdae5aec7338b4c943ca5b63c43dcdee5c44859344bfcb502fae2",
+      "removedTextMetadata": [],
+      "removedTrailingBytes": 0,
+      "sourceVerifiedDate": "2026-10-18",
+      "crop": null,
+      "resize": null,
+      "transformation": "No pixel changes. PNG text chunks are discarded by type without decoding payload; any bytes after IEND are discarded without interpretation."
+    },
+    {
+      "id": "test-02",
+      "title": "MACT framework",
+      "sourcePage": "https://github.com/boschresearch/MACT/blob/main/framework.png",
+      "repositoryPage": "https://github.com/boschresearch/MACT",
+      "imageUrl": "https://raw.githubusercontent.com/boschresearch/MACT/main/framework.png",
+      "paperSource": "https://arxiv.org/abs/2412.20145",
+      "author": "Unknown individual illustrator; hosted in the paper authors' official boschresearch/MACT repository. Paper authors: Wei Zhou, Mohsen Mesgar, Annemarie Friedrich, Heike Adel.",
+      "license": "unknown for this image and its third-party icon components specifically",
+      "repositoryLicense": "AGPL-3.0",
+      "licenseUrl": "https://github.com/boschresearch/MACT/blob/main/LICENSE.txt",
+      "licenseNote": "The official repository license is verified. LICENSE.txt and 3rd-party-licenses.txt do not establish image/component-specific licensing. Do not infer that every embedded icon is AGPL or freely reusable.",
+      "selectionCriteria": "Multiple detailed icons, directed workflow arrows, dashed panels, tables, and moderate text. Original raster is only 547 x 527, which is a documented input-resolution limitation.",
+      "role": "held-out-round-02",
+      "file": "test-02.png",
+      "width": 547,
+      "height": 527,
+      "sha256": "8f9731850b2e0a0dc48501f2a003ad2d4ca810f0b73d057b9dae7ae33550f5a5",
+      "bytes": 61478,
+      "originalDownloadSha256": "65be509e41a868f004c1917ce727070a9e58e899d2fcccffa52cc275b908999e",
+      "originalDownloadBytes": 970450,
+      "compressedPixelDataSha256": "071b8cf15f8c82f902771c5499faa3191a032688d8fabaf5ee73f95c70f0445e",
+      "removedTextMetadata": [
+        {
+          "type": "tEXt",
+          "length": 908960
+        }
+      ],
+      "removedTrailingBytes": 0,
+      "sourceVerifiedDate": "2026-10-18",
+      "crop": null,
+      "resize": null,
+      "transformation": "No pixel changes. PNG text chunks are discarded by type without decoding payload; any bytes after IEND are discarded without interpretation."
+    }
+  ]
+}

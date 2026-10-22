@@ -1,0 +1,93 @@
+# Installed dependencies and local runtime environments
+node_modules/
+.venv/
+venv/
+env/
+.tox/
+.nox/
+.npm/
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated conversions and historical local comparison pages
+/runs/
+/comparison*.html
+/diagnostic*.html
+
+# Personal raster inputs stay local. Keep source notes, manifests and fetch scripts.
+# Share licensed examples in examples/ or test fixtures in tests/ after review.
+/inputs/**/*.[pP][nN][gG]
+/inputs/**/*.[jJ][pP][gG]
+/inputs/**/*.[jJ][pP][eE][gG]
+/inputs/**/*.[wW][eE][bB][pP]
+/inputs/**/*.[gG][iI][fF]
+/inputs/**/*.[bB][mM][pP]
+/inputs/**/*.[tT][iI][fF]
+/inputs/**/*.[tT][iI][fF][fF]
+/inputs/**/*.[aA][vV][iI][fF]
+/inputs/**/*.[pP][dD][fF]
+
+# Downloaded OCR / model weights and local download caches
+/models/
+/weights/
+/model-cache/
+*.onnx
+*.onnx.data
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.tflite
+
+# Credentials and machine-specific configuration; keep safe example templates.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.npmrc
+.pypirc
+.netrc
+.git-credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+/credentials*.json
+/service-account*.json
+/secrets/
+*.local.json
+*.local.toml
+*.local.yaml
+*.local.yml
+*.local.env
+.codex/auth.json
+.codex/sessions/
+.codex/log/
+.codex/logs/
+.vscode/*.local.json
+
+# Logs and editor / operating-system leftovers
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Deliberately keep SKILL.backup-*.md, SKILL_CHANGELOG.md, package-lock.json,
+# source / tools / tests, and shareable .codex configuration under version control.

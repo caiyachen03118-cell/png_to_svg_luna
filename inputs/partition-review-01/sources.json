@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "preparedDate": "2026-10-20",
+  "purpose": "Fresh public scientific/agent architecture inputs for automatic partition review.",
+  "sourceSelection": "Two official paper-author repository raster diagrams. Original downloaded bytes retained beside normalized PNGs; downloaded only the two image files, not repositories or PDFs. No Skill or conversion output was modified.",
+  "excludedPriorInputs": [
+    "BORO process Flowchart",
+    "ACES Output Device Transform (ODT) Workflow",
+    "Basic git branching workflow (GitLab)",
+    "MM-StoryAgent framework",
+    "Object detector 1stage vs 2 stage",
+    "MACT framework",
+    "The AI Scientist Figure 1",
+    "DeTikZify Figure 1",
+    "MatPlotAgent Figure 3",
+    "GoalAct framework",
+    "DCNet framework"
+  ],
+  "priorManifestsChecked": [
+    "inputs/manifest.json",
+    "inputs/round-02/manifest.json",
+    "inputs/round-04/manifest.json"
+  ],
+  "verification": "Both images visually inspected through view_image. PNG decoding, dimensions, file SHA-256 and raw RGBA SHA-256 computed locally; hashes differ from all listed previous input manifests.",
+  "inputs": [
+    {
+      "id": "reflexion",
+      "title": "Reflexion agent architecture",
+      "project": "noahshinn/reflexion",
+      "author": "Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao (paper authors; individual illustrator not specified)",
+      "sourcePage": "https://github.com/noahshinn/reflexion/blob/main/figures/reflexion_rl.png",
+      "repositoryPage": "https://github.com/noahshinn/reflexion",
+      "imageUrl": "https://raw.githubusercontent.com/noahshinn/reflexion/main/figures/reflexion_rl.png",
+      "paperSource": "https://arxiv.org/abs/2303.11366",
+      "repositoryLicense": "MIT",
+      "licenseUrl": "https://github.com/noahshinn/reflexion/blob/main/LICENSE",
+      "originalFile": "reflexion.original.png",
+      "file": "reflexion.png",
+      "transformation": "Re-encoded with sharp 0.34.5 to strip ancillary metadata; dimensions and decoded RGBA pixels unchanged. No crop, semantic edit, or defect injection.",
+      "suggestedGrid": {
+        "columns": 3,
+        "rows": 3
+      },
+      "selectionCriteria": "Compact agent architecture with feedback loops, directed arrowheads, connecting lines, multiline labels, and two styles of memory/model blocks.",
+      "license": "Image-specific license not independently stated; official source repository is MIT licensed.",
+      "licenseNote": "Repository license verified on its GitHub LICENSE page. No separate individual illustrator or embedded-component license was found; repository licensing is recorded without claiming additional image-specific permissions.",
+      "sourceVerifiedDate": "2026-10-20",
+      "original": {
+        "width": 1102,
+        "height": 959,
+        "bytes": 61704,
+        "sha256": "6a8ecb475d434dd4b19bd83b9f720fc7ed4d7a920d3edd3ba8764a9e56f42e42"
+      },
+      "width": 1102,
+      "height": 959,
+      "bytes": 69711,
+      "sha256": "4a191668001d3077513fbf62e6b1ae3894385989fd55a3dcda7a4bbcca5c61a5",
+      "crop": null,
+      "visuallyInspected": true,
+      "originalDecodedRGBAsha256": "de0fd5555f35798c7ed2534863f237fa0563ef6b8ce320c2cc552b27b7e56eab",
+      "decodedRGBAsha256": "de0fd5555f35798c7ed2534863f237fa0563ef6b8ce320c2cc552b27b7e56eab",
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "id": "self-rag",
+      "title": "Self-RAG overview and comparison with Retrieval-Augmented Generation",
+      "project": "AkariAsai/self-rag",
+      "author": "Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, Hannaneh Hajishirzi (paper authors; individual illustrator not specified)",
+      "sourcePage": "https://github.com/AkariAsai/self-rag/blob/main/images/teaser_self_rag_v8.png",
+      "repositoryPage": "https://github.com/AkariAsai/self-rag",
+      "imageUrl": "https://raw.githubusercontent.com/AkariAsai/self-rag/main/images/teaser_self_rag_v8.png",
+      "paperSource": "https://arxiv.org/abs/2310.11511",
+      "repositoryLicense": "MIT",
+      "licenseUrl": "https://github.com/AkariAsai/self-rag/blob/main/LICENSE",
+      "originalFile": "self-rag.original.png",
+      "file": "self-rag.png",
+      "transformation": "Whole image proportionally downsampled from 8948 x 4734 to 2200 x 1164 with sharp 0.34.5 Lanczos3 kernel and re-encoded as PNG without ancillary metadata. No crop, semantic edit, or defect injection.",
+      "suggestedGrid": {
+        "columns": 3,
+        "rows": 2
+      },
+      "selectionCriteria": "Parallel retrieval branches, dashed directional connectors, critique/ranking labels, small neural-network and search icons, and repeated generation path; text legible in prepared PNG.",
+      "license": "Image-specific license not independently stated; official source repository is MIT licensed.",
+      "licenseNote": "Repository license verified on its GitHub LICENSE page. No separate individual illustrator or embedded-component license was found; repository licensing is recorded without claiming additional image-specific permissions.",
+      "sourceVerifiedDate": "2026-10-20",
+      "original": {
+        "width": 8948,
+        "height": 4734,
+        "bytes": 3497965,
+        "sha256": "3ca632e182d2c8b87b1d88e9b34989df16074d4258b1a7403c49aaa8450f370a"
+      },
+      "width": 2200,
+      "height": 1164,
+      "bytes": 824651,
+      "sha256": "325724d8812cd8a729cb75d2831d421bb63d377fa9c0cc1cbd28ae2a99c0afaa",
+      "crop": null,
+      "visuallyInspected": true,
+      "originalDecodedRGBAsha256": "7b902edc7d31d0e15e24b6ab6a9326c5d4f42f4eb8c2d5e0349e13613e846f67",
+      "decodedRGBAsha256": "6ee06f9d9b5e777a53d35886c70295c96a71175ec30f905bb57cfb22666a1f9b",
+      "decodedPixelsUnchanged": false
+    }
+  ]
+}

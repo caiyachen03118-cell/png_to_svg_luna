@@ -1,0 +1,5 @@
+# Optional local OCR candidate extraction. No external model API calls.
+# Provision ONNX weights locally; tools/ocr.py never downloads weights.
+rapidocr==3.10.0
+onnxruntime==1.31.0
+Pillow==12.3.0
